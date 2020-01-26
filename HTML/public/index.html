@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap 3.3.7 without Gliphicon and include all styles-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Sliders scripts css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <!--Animation styles-->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!--Main css styles scripts-->
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Феррум</title>
+</head>
+<body>
+<!--Header-->
+<header class="header">
+    <div class="container-fluid main-fluid">
+        <!--First menu link-->
+        <div class="col-sm-4 col-xs-12">
+            <!--Links-->
+            <div class="links">
+                <a href="images/Логотип.png" download="images/Логотип.png" class="link">ПРАЙС-ЛИСТ<i class="icon-metall icon-tag"></i></a>
+                <a href="#order" class="link"  data-toggle="modal" data-target="#order">Рассчитать стоимость<i class="icon-metall icon-division"></i></a>
+                <a href="#feedback" class="link" data-toggle="modal" data-target="#feedback">Заказать звонок<i class="icon-metall icon-phone"></i></a>
+            </div>
+            <!--End links-->
+        </div>
+        <!--End first menu link-->
+        <!--Logo-->
+        <div class="col-sm-3 col-md-4 logo col-xs-4">
+            <div>
+                <a href="#" class="link__logo"><img src="images/Логотип.png" alt=""></a>
+            </div>
+        </div>
+        <!--End Logo-->
+        <!--contacts-->
+        <div class="col-sm-5 col-md-4 col-xs-8">
+            <div class="row">
+                <!--Logo of city-->
+                <div class="col-sm-4 hidden-xs hidden-sm">
+                    <div>
+                        <img src="images/Герб_Барнаула.png" alt="Город Барнаул">
+                        <span class="city">Барнаул</span>
+                    </div>
+                </div>
+                <!--End Logo of city-->
+                <!--Contacts-->
+                <div class="col-md-8 col-xs-12 contacts">
+                    <article class="contacts__content">
+                        <!--Address-->
+                        <span class="address">ул. Бриллиантовая, 22В</span>
+                        <!--Mail-->
+                        <span class="address"><a href="mailto:barnaul@ferrum-n.ru">barnaul@ferrum-n.ru</a></span>
+                        <!--Work hours-->
+                        <table class="contact_information hidden-xs">
+                            <!--Phone-->
+                            <tr>
+                                <td colspan="2"><a href="tel:73852501020"><i class="icon-metall icon-phone"></i>+7(3852) 50-10-20</a></td>
+                            </tr>
+                            <!--Phone-->
+                            <tr><!--Icon time-->
+                                <td rowspan="2" class="icon"><i class="icon-metall icon-clock"></i></td>
+                                <!--Sclad-->
+                                <td>Склад: пн-пт 8.00 – 17.00</td>
+                            </tr>
+                            <tr>
+                                <!--Office-->
+                                <td>Офис:  пн-пт 8.00 – 18.00</td>
+                            </tr>
+                        </table>
+                        <!--End Work hours-->
+                    </article>
+                </div>
+                <!--End Contacts-->
+            </div>
+        </div>
+        <!--End contacts-->
+    </div>
+</header>
+<!--End header-->
+<!--Main content wrapper-->
+<main>
+    <!--First view-->
+    <header class="first_view">
+        <!--Navigation-->
+        <section class="menu">
+            <!--Bootstrap navigation-->
+            <nav class="navbar" role="navigation">
+                <!--Mobile button-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--Mobile button-->
+                <!--.navbar-collapse-->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#production">Продукция</a><span></span></li>
+                        <li><a href="#service">Услуги</a><span></span></li>
+                        <li><a href="#special">Спецпредложения</a><span></span></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+            <!--End Bootstrap navigation-->
+        </section>
+        <!--End Navigation-->
+        <!--Slider-->
+        <section class="slider">
+            <!--List imagef of garanties-->
+            <div class="list hidden-sm">
+                <ul>
+                    <li>
+                        <img src="images/best_1.png" alt="" class="wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="0">
+                    </li>
+                    <li>
+                        <img src="images/best_2.png" alt="" class="wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                    </li>
+                    <li>
+                        <img src="images/best_3.png" alt="" class="wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="1s">
+                    </li>
+                </ul>
+            </div>
+            <!--End List imagef of garanties-->
+            <!--Swiper-slider for offers-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!--Slide-->
+                    <div class="swiper-slide" style="background-image: url(images/slide.png)">
+                        <!--Caption-->
+                        <div class="slider__caption">
+                            <div class="container">
+                                <div class="slider__title">
+                                    <!--Caption-->
+                                    <span class="up wow fadeInLeft" data-wow-delay=".25s">ТРУБА</span><span class="wow fadeInRight" data-wow-delay=".5s">СЕТКА</span><br><span class="wow fadeInLeft" data-wow-delay=".75s">ЛИСТ</span><span class="up wow fadeInRight" data-wow-delay="1s">УГОЛОК</span><br><span class="wow fadeInDown" data-wow-delay="1.25s">ШВЕЛЛЕР</span>
+                                    <!--Address-->
+                                    <strong class="wow fadeInLeft">на Бриллиантовой 22В</strong>
+                                    <!--Addition image-->
+                                    <img src="images/man.png" alt="Труба,сетка,list,уголок,швеллер" class="fix_mage_position hidden-esmx wow fadeInDownBig" data-wow-duration="1s">
+                                </div>
+                                <!--Description-->
+                                <p class="wow fadeInDown">В Барнауле компания “Феррум” распологается на базе общей площадью более 7000м2
+                                    с тремя мостовыми кранами и крытым помещением что обеспечивает большой сортатмент продукции и оперативную загрузку клиентов. Собрана профессиональная команда, каждый член команды проходит специальный курс обучения и является экспертов в своем деле.</p>
+                            </div>
+                        </div>
+                        <!--End Caption-->
+                    </div>
+                    <!--End Slide-->
+                    <!--Slide-->
+                    <div class="swiper-slide" style="background-image: url(images/slide.png)">
+                        <!--Caption-->
+                        <div class="slider__caption">
+                            <div class="container">
+                                <div class="slider__title">
+                                    <!--Caption-->
+                                    <span class="up wow fadeInLeft" data-wow-delay=".25s">ТРУБА</span><span class="wow fadeInRight" data-wow-delay=".5s">СЕТКА</span><br><span class="wow fadeInLeft" data-wow-delay=".75s">ЛИСТ</span><span class="up wow fadeInRight" data-wow-delay="1s">УГОЛОК</span><br><span class="wow fadeInDown" data-wow-delay="1.25s">ШВЕЛЛЕР</span>
+                                    <!--Address-->
+                                    <strong class="wow fadeInLeft">на Бриллиантовой 22В</strong>
+                                    <!--Addition image-->
+                                    <img src="images/man.png" alt="Труба,сетка,list,уголок,швеллер" class="fix_mage_position hidden-esmx wow fadeInDownBig" data-wow-duration="1s">
+                                </div>
+                                <!--Description-->
+                                <p class="wow fadeInDown">В Барнауле компания “Феррум” распологается на базе общей площадью более 7000м2
+                                    с тремя мостовыми кранами и крытым помещением что обеспечивает большой сортатмент продукции и оперативную загрузку клиентов. Собрана профессиональная команда, каждый член команды проходит специальный курс обучения и является экспертов в своем деле.</p>
+                            </div>
+                        </div>
+                        <!--End Caption-->
+                    </div>
+                    <!--End Slide-->
+                    <!--Slide-->
+                    <div class="swiper-slide" style="background-image: url(images/slide.png)">
+                        <!--Caption-->
+                        <div class="slider__caption">
+                            <div class="container">
+                                <div class="slider__title">
+                                    <!--Caption-->
+                                    <span class="up wow fadeInLeft" data-wow-delay=".25s">ТРУБА</span><span class="wow fadeInRight" data-wow-delay=".5s">СЕТКА</span><br><span class="wow fadeInLeft" data-wow-delay=".75s">ЛИСТ</span><span class="up wow fadeInRight" data-wow-delay="1s">УГОЛОК</span><br><span class="wow fadeInDown" data-wow-delay="1.25s">ШВЕЛЛЕР</span>
+                                    <!--Address-->
+                                    <strong class="wow fadeInLeft">на Бриллиантовой 22В</strong>
+                                    <!--Addition image-->
+                                    <img src="images/man.png" alt="Труба,сетка,list,уголок,швеллер" class="fix_mage_position hidden-esmx wow fadeInDownBig" data-wow-duration="1s">
+                                </div>
+                                <!--Description-->
+                                <p class="wow fadeInDown">В Барнауле компания “Феррум” распологается на базе общей площадью более 7000м2
+                                    с тремя мостовыми кранами и крытым помещением что обеспечивает большой сортатмент продукции и оперативную загрузку клиентов. Собрана профессиональная команда, каждый член команды проходит специальный курс обучения и является экспертов в своем деле.</p>
+                            </div>
+                        </div>
+                        <!--End Caption-->
+                    </div>
+                    <!--End Slide-->
+                </div>
+                <!--Pagination -->
+                <div class="swipe-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+                <!--End Pagination -->
+            </div>
+            <!--End Swiper-slider of offers-->
+        </section>
+        <!--End Slider-->
+    </header>
+    <!--End First view-->
+    <!--Section plus-->
+    <section class="plus">
+        <!--Bootstrap container-->
+        <div class="container">
+            <div class="row">
+                <!--Item-->
+                <div class="col-md-3 col-xs-6 col-smx">
+                    <!--Plus content-->
+                    <article class="plus__content wow fadeInUp" data-wow-duration=".75s" data-wow-delay="0">
+                        <p>Более <span>20</span> лет <br>на рынке металлопроката, собственное производство</p>
+                    </article>
+                </div>
+                <!--End Item-->
+                <!--Item-->
+                <div class="col-md-3 col-xs-6 col-smx">
+                    <!--Plus content-->
+                    <article class="plus__content wow fadeInUp" data-wow-duration=".75s" data-wow-delay=".5s">
+                        <p>Более <span>5000</span> <br>наименований продукции на складе, возможность заказа дефицитных позиций</p>
+                    </article>
+                </div>
+                <!--End Item-->
+                <!--Item-->
+                <div class="col-md-3 col-xs-6 col-smx">
+                    <!--Plus content-->
+                    <article class="plus__content wow fadeInUp" data-wow-duration=".75s" data-wow-delay="1s">
+                        <p><span>7000</span>м&#178; <br> Общая вместительность склада</p>
+                    </article>
+                </div>
+                <!--End Item-->
+                <!--Item-->
+                <div class="col-md-3 col-xs-6 col-smx">
+                    <!--Plus content-->
+                    <article class="plus__content wow fadeInUp" data-wow-duration=".75s" data-wow-delay="1.5s">
+                        <p>Более <span>10000</span> <br>клиентов по всей России</p>
+                    </article>
+                </div>
+                <!--End Item-->
+            </div>
+        </div>
+        <!--End Bootstrap container-->
+    </section >
+    <!--End Section plus-->
+    <!--Section product-->
+    <section class="product clearfix" id="production">
+        <!--Title of section-->
+        <h2>Продукция</h2>
+        <ul>
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_1.png" alt="Электросварная труба">
+                    <!--Name product-->
+                    <h3 class="product__caption">Электросварная<br>труба</h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_2.png" alt="Водогазопроводная труба (ВГП)">
+                    <!--Name product-->
+                    <h3 class="product__caption">Водогазопроводная труба (ВГП) </h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_3.png" alt="Профильная и квадратная труба">
+                    <!--Name product-->
+                    <h3 class="product__caption">Профильная и квадратная труба </h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_4.png" alt="Трубы цельнотянутые">
+                    <!--Name product-->
+                    <h3 class="product__caption">Трубы цельнотянутые</h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_5.png" alt="Листовой прокат">
+                    <!--Name product-->
+                    <h3 class="product__caption">Листовой прокат</h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_6.png" alt="Сортовой и фасонный прокат">
+                    <!--Name product-->
+                    <h3 class="product__caption">Сортовой и фасонный прокат</h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Null Product-->
+            <li class="null">
+                <a href="#">
+                    <!--Null image-->
+                    <img src="images/product/product_7.png" alt="">
+                </a>
+            </li>
+            <!--End Null Product-->
+            <!--Product-->
+            <li>
+                <a href="#product-1" data-toggle="modal" data-target="#product-1">
+                    <!--Thumbnail-->
+                    <img src="images/product/product_8.png" alt="Сетка сварная">
+                    <!--Name product-->
+                    <h3 class="product__caption">Сетка сварная</h3>
+                </a>
+            </li>
+            <!--End Product-->
+            <!--Null Product-->
+            <li class="null">
+                <a href="#">
+                    <!--Null image-->
+                    <img src="images/product/product_9.png" alt="">
+                </a>
+            </li>
+            <!--End Null Product-->
+        </ul>
+    </section>
+    <!--End Section product-->
+    <!--Section Advantages-->
+    <section class="advantages"  id="service">
+        <!--Bootstrap container-->
+        <div class="container">
+            <!--Title-->
+            <h2>Мы для вас</h2>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 col-smx">
+                    <!--Item-->
+                    <article class="advantages__article">
+                        <!--Fontello icon-->
+                        <i class="icon-metall icon-scissors wow fadeInDownBig"></i>
+                        <!--Title advantage-->
+                        <h3 class="wow fadeInLeftBig">Порежем в размер</h3>
+                        <!--Description advantage-->
+                        <p class="wow fadeInRightBig">Укажите ваши требования по размеру. Наши специалисты подготовят материал нужного размера.</p>
+                        <!--Link to order-->
+                        <a href="#order" data-toggle="modal" data-target="#order" class="link wow fadeInDownBig">ЗАКАЗАТЬ</a>
+                    </article>
+                    <!--End Item-->
+                </div>
+                <div class="col-sm-3 col-xs-6 col-smx">
+                    <!--Item-->
+                    <article class="advantages__article">
+                        <!--Fontello icon-->
+                        <i class="icon-metall icon-hook wow fadeInDownBig" data-wow-delay=".5s"></i>
+                        <!--Title advantage-->
+                        <h3 class="wow fadeInLeftBig" data-wow-delay=".5s">Погрузим</h3>
+                        <!--Description advantage-->
+                        <p class="wow fadeInRightBig" data-wow-delay=".5s">Погрузка осуществляется как в закрытый так и в открытый автотранспорт</p>
+                        <!--Link to order-->
+                    </article>
+                    <!--End Item-->
+                </div>
+                <div class="col-sm-3 col-xs-6 col-smx">
+                    <!--Item-->
+                    <article class="advantages__article">
+                        <!--Fontello icon-->
+                        <i class="icon-metall icon-package wow fadeInDownBig" data-wow-delay="1s"></i>
+                        <!--Title advantage-->
+                        <h3 class="wow fadeInLeftBig" data-wow-delay="1s">Соберём груз</h3>
+                        <!--Description advantage-->
+                        <p class="wow fadeInRightBig" data-wow-delay="1s">Погрузка позиций большой сборности и разного сортамента с учетом правильного расположения металлопрокта</p>
+                    </article>
+                    <!--End Item-->
+                </div>
+                <div class="col-sm-3 col-xs-6 col-smx">
+                    <!--Item-->
+                    <article class="advantages__article">
+                        <!--Fontello icon-->
+                        <i class="icon-metall icon-delivery wow fadeInDownBig" data-wow-delay="1.5s"></i>
+                        <!--Title advantage-->
+                        <h3 class="wow fadeInLeftBig" data-wow-delay="1.5s">Доставим</h3>
+                        <!--Description advantage-->
+                        <p class="wow fadeInRightBig" data-wow-delay="1.5s">Доставка по Барнаулу осуществляется в день заказа. Стоимость доставки уточните у специалиста.</p>
+                        <!--Link to download price-list-->
+                        <a href="#order" class="link wow fadeInDownBig" data-toggle="modal" data-target="#order" data-wow-delay="1.5s">Узнать стоимость</a>
+                    </article>
+                    <!--End Item-->
+                </div>
+            </div>
+        </div>
+        <!--End Bootstrap container-->
+    </section>
+    <!--End Section Advantages-->
+    <!--Section Offer-->
+    <section class="offer" id="special">
+        <div class="container">
+            <!--Image SPECIAL-->
+            <div class="offer__image">
+                <img src="images/special.png" alt="Специальное предложение от компании Феррум" class="wow fadeInLeft" data-wow-duration="1s">
+            </div>
+            <!--End image SPECIAL-->
+            <div class="row">
+                <!--Offer content-->
+                <div class="col-sm-9 col-sm-offset-3 col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <article class="offer__content">
+                                <!--Title-->
+                                <h2 class="offer__title">Только до конца этой недели <br> специальные цены на</h2>
+                                <!--Product name-->
+                                <p class="offer__product">ШВЕЛЛЕР <span class="offer__value">22 мм</span></p>
+                                <!--Price-->
+                                <p class="offer__price"><span>78 000</span> руб/т</p>
+                            </article>
+                        </div>
+                        <!--Thumbnail product-->
+                        <div class="col-sm-6">
+                            <img src="images/offer_image.png" alt="Заголовок товара" class="wow fadeInRight" data-wow-duration="1s">
+                        </div>
+                        <!--End thumbnail product-->
+                    </div>
+                    <!--Link to product-->
+                    <a href="#order" data-toggle="modal" data-target="#order" class="link">узнать подробнее</a>
+                </div>
+                <!--End offer content-->
+            </div>
+        </div>
+    </section>
+    <!--Section Offer-->
+    <!--Section contact information-->
+    <section class="map" id="contacts">
+        <article class="wow fadeInLeft" data-wow-duration="1s">
+            <!--Content-->
+            <div class="map__content">
+                <!--Logo-->
+                <img src="images/Логотип.png" alt="">
+                <!--Address-->
+                <span class="address">г. Барнаул, ул. Бриллиантовая, 22В</span>
+                <!--Table work hours-->
+                <table class="contact_information">
+                    <tr>
+                        <!--Phone-->
+                        <td colspan="2"><i class="icon-metall icon-phone"></i>+7(3852) 50-10-20</td>
+                    </tr>
+                    <tr><!--Icon time-->
+                        <td rowspan="2" class="icon"><i class="icon-metall icon-clock"></i></td>
+                        <!--Sclad-->
+                        <td>Склад: пн-пт 8.00 – 17.00</td>
+                    </tr>
+                    <tr>
+                        <!--Office-->
+                        <td>Офис:  пн-пт 8.00 – 18.00</td>
+                    </tr>
+                </table>
+                <!--Link to order call-->
+                <a class="link" href="#order" data-toggle="modal" data-target="#order">ЗАКАЗАТЬ ЗВОНОК <i class="icon-metall icon-phone"></i></a>
+                <!--Link to download price-list-->
+                <a href="images/Логотип.png" download="images/Логотип.png" class="link">ПРАЙС-ЛИСТ<i class="icon-metall icon-tag"></i></a>
+            </div>
+            <!--End content-->
+        </article>
+        <!--Iframe Yandex map-->
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0b14d06599e6459891871167d4bfea30ce7a1b0db91d897db298a9412c6d5df&amp;source=constructor" width="100%" height="485" frameborder="0"></iframe>
+        <!--End Iframe Yandex map-->
+    </section>
+    <!--End section contact information-->
+</main>
+<!--footer-->
+<footer>
+    <!--Bootstrap container-->
+    <div class="container-fluid">
+        <!--Links-->
+        <ul>
+            <li>ООО «Феррум» 2018г.</li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+        </ul>
+        <!--End Links-->
+    </div>
+    <!--End Bootstrap container-->
+</footer>
+<!--End footer-->
+<!--Modal for first product-->
+<div class="modal fade" id="product-1" tabindex="-1" role="dialog" aria-labelledby="product-1">
+    <div class="modal-dialog" role="document">
+        <!--Modal container full width-->
+        <div class="modal-content container-fluid">
+            <!--Modal header-->
+            <div class="modal-header row">
+                <!--Header-->
+                <header class="header">
+                    <div class="container-fluid main-fluid">
+                        <!--First menu link-->
+                        <div class="col-sm-4 col-xs-12">
+                            <!--Links-->
+                            <div>
+                                <a href="#" class="link"><span class="hidden-xs">ПРАЙС-ЛИСТ</span><i class="icon-metall icon-tag"></i></a>
+                                <a href="#order" class="link"  data-toggle="modal" data-target="#order"><span class="hidden-xs">Рассчитать стоимость</span><i class="icon-metall icon-division"></i></a>
+                                <a href="#feedback" class="link" data-toggle="modal" data-target="#feedback">Заказать звонок<i class="icon-metall icon-phone"></i></a>
+                            </div>
+                            <!--End links-->
+                        </div>
+                        <!--End first menu link-->
+                        <!--Logo-->
+                        <div class=" col-md-4 col-sm-3 logo col-xs-4">
+                            <div>
+                                <a href="#" class="link__logo"><img src="images/Логотип.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--End Logo-->
+                        <!--contacts-->
+                        <div class=" col-md-4 col-sm-5 col-xs-8">
+                            <div class="row">
+                                <!--Logo of city-->
+                                <div class="col-sm-4 hidden-xs hidden-sm hidden-md">
+                                    <div>
+                                        <img src="images/Герб_Барнаула.png" alt="Город Барнаул">
+                                        <span class="city">Барнаул</span>
+                                    </div>
+                                </div>
+                                <!--End Logo of city-->
+                                <!--Contacts-->
+                                <div class="col-md-8 col-sm-12 contacts">
+                                    <article class="contacts__content">
+                                        <!--Address-->
+                                        <span class="address">ул. Бриллиантовая, 22В</span>
+                                        <!--Mail-->
+                                        <span class="address"><a href="mailto:barnaul@ferrum-n.ru">barnaul@ferrum-n.ru</a></span>
+                                        <!--Work hours-->
+                                        <table class="contact_information hidden-xs">
+                                            <!--Phone-->
+                                            <tr>
+                                                <td colspan="2"><a href="tel:73852501020"><i class="icon-metall icon-phone"></i>+7(3852) 50-10-20</a></td>
+                                            </tr>
+                                            <!--Phone-->
+                                            <tr><!--Icon time-->
+                                                <td rowspan="2" class="icon"><i class="icon-metall icon-clock"></i></td>
+                                                <!--Sclad-->
+                                                <td>Склад: пн-пт 8.00 – 17.00</td>
+                                            </tr>
+                                            <tr>
+                                                <!--Office-->
+                                                <td>Офис:  пн-пт 8.00 – 18.00</td>
+                                            </tr>
+                                        </table>
+                                        <!--End Work hours-->
+                                    </article>
+                                </div>
+                                <!--End Contacts-->
+                            </div>
+                        </div>
+                        <!--End contacts-->
+                    </div>
+                </header>
+                <!--End header-->
+            </div>
+            <!--End Modal header-->
+            <!--Button close modal windows-->
+            <div class="button-wrap">
+                <!--Close button-->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-metall icon-cancel"></i></button>
+                <!--End close button-->
+            </div>
+            <!--End Button close modal windows-->
+            <div class="modal-body container">
+                  <div class="row">
+                      <div class="col-md-4 col-sm-5 hidden-xs">
+                          <!--Slider of product-->
+                          <div class="product__slider">
+                              <!--Fotorama for slides-->
+                              <div class="fotorama" data-fit="cover"  data-loop="true" data-nav="false"  data-min-height="650">
+                                  <img src="images/modal/Layer_10.png" alt="">
+                                  <img src="images/modal/Layer_11.png" alt="">
+                                  <img src="images/modal/Layer_12.png" alt="">
+                              </div>
+                              <!--End Fotorama for slides-->
+                          </div>
+                          <!--End Slider of product-->
+                      </div>
+                      <!--Content-->
+                      <div class="col-md-8 col-sm-7 col-xs-12">
+                          <!--Title-->
+                          <h2>Электросварная труба</h2>
+                          <!--Description-->
+                          <p>Для производства используется сталь 3, 09Г2с и сталь 20 по ГОСТ 10704-91.   Вся продукция производства ФЕРРУМ проходит строгий контроль качества современным, неразрушающим методом при помощи дефектоскопии.</p>
+                          <!--Range of goods-->
+                          <h3>Сортамент:</h3>
+                          <!--Product values-->
+                          <div class="list clearfix">
+                              <ul>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>10</li>
+                              </ul>
+                              <ul>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>20</li>
+                              </ul>
+                              <ul>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                                  <li>57х3,0</li>
+                              </ul>
+                              <!--End Product values-->
+                          </div>
+                          <span>Возможность заказа тонкостенных труб с толщиной стенки от 0,5 до 1,5мм</span>
+                          <a href="#feedback" class="link link__orange" data-toggle="modal" data-target="#feedback">заказать</a>
+                      </div>
+                      <!--End content-->
+                  </div>
+            </div>
+            <!--Modal Footer-->
+            <div class="modal-footer row">
+                <!--Footer-->
+                <footer>
+                    <!--Bootstrap container-->
+                    <div class="container-fluid">
+                        <!--Links-->
+                        <ul>
+                            <li>ООО «Феррум» 2018г.</li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                        <!--End Links-->
+                    </div>
+                    <!--End Bootstrap container-->
+                </footer>
+                <!--End Footer-->
+            </div>
+            <!--End Modal Footer-->
+        </div>
+    </div>
+</div>
+<!--End Modal for first product-->
+<!--Order-->
+<div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="order">
+    <!--Modal body-->
+    <div class="modal-dialog" role="document">
+        <div class="modal-content container-fluid">
+            <!--Modal header-->
+            <div class="modal-header row">
+                <!--Header-->
+                <header class="header">
+                    <div class="container-fluid main-fluid">
+                        <!--First menu link-->
+                        <div class="col-sm-4 col-xs-12">
+                            <!--Links-->
+                            <div>
+                                <a href="#" class="link"><span class="hidden-xs">ПРАЙС-ЛИСТ</span><i class="icon-metall icon-tag"></i></a>
+                                <a href="#order" class="link"  data-toggle="modal" data-target="#order"><span class="hidden-xs">Рассчитать стоимость</span><i class="icon-metall icon-division"></i></a>
+                                <a href="#feedback" class="link" data-toggle="modal" data-target="#feedback">Заказать звонок<i class="icon-metall icon-phone"></i></a>
+                            </div>
+                            <!--End links-->
+                        </div>
+                        <!--End first menu link-->
+                        <!--Logo-->
+                        <div class=" col-md-4 col-sm-3 logo col-xs-4">
+                            <div>
+                                <a href="#" class="link__logo"><img src="images/Логотип.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--End Logo-->
+                        <!--contacts-->
+                        <div class=" col-md-4 col-sm-5 col-xs-8">
+                            <div class="row">
+                                <!--Logo of city-->
+                                <div class="col-sm-4 hidden-xs hidden-sm hidden-md">
+                                    <div>
+                                        <img src="images/Герб_Барнаула.png" alt="Город Барнаул">
+                                        <span class="city">Барнаул</span>
+                                    </div>
+                                </div>
+                                <!--End Logo of city-->
+                                <!--Contacts-->
+                                <div class="col-md-8 col-sm-12 contacts">
+                                    <article class="contacts__content">
+                                        <!--Address-->
+                                        <span class="address">ул. Бриллиантовая, 22В</span>
+                                        <!--Mail-->
+                                        <span class="address"><a href="mailto:barnaul@ferrum-n.ru">barnaul@ferrum-n.ru</a></span>
+                                        <!--Work hours-->
+                                        <table class="contact_information hidden-xs">
+                                            <!--Phone-->
+                                            <tr>
+                                                <td colspan="2"><a href="tel:73852501020"><i class="icon-metall icon-phone"></i>+7(3852) 50-10-20</a></td>
+                                            </tr>
+                                            <!--Phone-->
+                                            <tr><!--Icon time-->
+                                                <td rowspan="2" class="icon"><i class="icon-metall icon-clock"></i></td>
+                                                <!--Sclad-->
+                                                <td>Склад: пн-пт 8.00 – 17.00</td>
+                                            </tr>
+                                            <tr>
+                                                <!--Office-->
+                                                <td>Офис:  пн-пт 8.00 – 18.00</td>
+                                            </tr>
+                                        </table>
+                                        <!--End Work hours-->
+                                    </article>
+                                </div>
+                                <!--End Contacts-->
+                            </div>
+                        </div>
+                        <!--End contacts-->
+                    </div>
+                </header>
+                <!--End header-->
+            </div>
+            <!--End Modal header-->
+            <!--Close Button-->
+            <div class="button-wrap">
+                <!--Close button-->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-metall icon-cancel"></i></button>
+                <!--End close button-->
+            </div>
+            <!--End Close Button-->
+            <div class="modal-body container">
+                <!--Form order-->
+                <form action="#" class="order form">
+                    <!--Title form-->
+                    <h4 class="modal-title">Заполните заявку, и наши менеджеры ответят вам в ближайшее время!</h4>
+                    <!--Input name-->
+                    <div class="form__wrap">
+                        <input type="text" class="form__input required" placeholder="Ваше имя" title="Поле обязательно для заполнения">
+                    </div>
+                    <!--Input Email-->
+                    <div class="form__wrap">
+                        <input type="email" class="form__input" placeholder="Ваш E-mail">
+                    </div>
+                    <!--Input phone-->
+                    <div class="form__wrap">
+                        <input type="tel" class="form__input required" placeholder="Номер телефона">
+                    </div>
+                    <!--Textarea message-->
+                    <div class="form__wrap">
+                        <textarea cols="30" rows="10" class="form__input" placeholder="Сообщение"></textarea>
+                    </div>
+                    <!--Input file-->
+                    <div class="form__wrap">
+                        <label for="file" class="bordered"><input type="file" class="hidden" id="file">Прикрепить файл</label>
+                    </div>
+                    <!--Checkbox confirm-->
+                    <div class="form__wrap checkbox-label">
+                        <label>
+                            <input class="checkbox" type="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Согласен с политикой обработки персональных данных</span>
+                        </label>
+                    </div>
+                    <!--End Checkbox confirm-->
+                    <!--Button send-->
+                    <div class="form__wrap">
+                        <button class="link link__orange">отправить</button>
+                    </div>
+                    <!--End Button send-->
+                </form>
+                <!--End form-->
+            </div>
+            <!--Modal footer-->
+            <div class="modal-footer row">
+                <!--Footer-->
+                <footer>
+                    <!--Bootstrap container-->
+                    <div class="container-fluid">
+                        <!--Links-->
+                        <ul>
+                            <li>ООО «Феррум» 2018г.</li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                        <!--End Links-->
+                    </div>
+                    <!--End Bootstrap container-->
+                </footer>
+                <!--End Footer-->
+            </div>
+            <!--End Modal footer-->
+        </div>
+    </div>
+    <!--End Modal body-->
+</div>
+<!--End Order-->
+<!--Feedback-->
+<div class="modal fade" id="feedback" tabindex="-1" role="dialog">
+    <!--Body modal-->
+    <div class="modal-dialog" role="document">
+        <!--Bootstrap container for full width-->
+        <div class="modal-content container-fluid">
+            <!--Header Modal-->
+            <div class="modal-header row">
+                <!--Header-->
+                <header class="header">
+                    <div class="container-fluid main-fluid">
+                        <!--First menu link-->
+                        <div class="col-sm-4 col-xs-12">
+                            <!--Links-->
+                            <div>
+                                <a href="#" class="link"><span class="hidden-xs">ПРАЙС-ЛИСТ</span><i class="icon-metall icon-tag"></i></a>
+                                <a href="#order" class="link"  data-toggle="modal" data-target="#order"><span class="hidden-xs">Рассчитать стоимость</span><i class="icon-metall icon-division"></i></a>
+                                <a href="#feedback" class="link" data-toggle="modal" data-target="#feedback">Заказать звонок<i class="icon-metall icon-phone"></i></a>
+                            </div>
+                            <!--End links-->
+                        </div>
+                        <!--End first menu link-->
+                        <!--Logo-->
+                        <div class=" col-md-4 col-sm-3 logo col-xs-4">
+                            <div>
+                                <a href="#" class="link__logo"><img src="images/Логотип.png" alt=""></a>
+                            </div>
+                        </div>
+                        <!--End Logo-->
+                        <!--contacts-->
+                        <div class=" col-md-4 col-sm-5 col-xs-8">
+                            <div class="row">
+                                <!--Logo of city-->
+                                <div class="col-sm-4 hidden-xs hidden-sm hidden-md">
+                                    <div>
+                                        <img src="images/Герб_Барнаула.png" alt="Город Барнаул">
+                                        <span class="city">Барнаул</span>
+                                    </div>
+                                </div>
+                                <!--End Logo of city-->
+                                <!--Contacts-->
+                                <div class="col-md-8 col-sm-12 contacts">
+                                    <article class="contacts__content">
+                                        <!--Address-->
+                                        <span class="address">ул. Бриллиантовая, 22В</span>
+                                        <!--Mail-->
+                                        <span class="address"><a href="mailto:barnaul@ferrum-n.ru">barnaul@ferrum-n.ru</a></span>
+                                        <!--Work hours-->
+                                        <table class="contact_information hidden-xs">
+                                            <!--Phone-->
+                                            <tr>
+                                                <td colspan="2"><a href="tel:73852501020"><i class="icon-metall icon-phone"></i>+7(3852) 50-10-20</a></td>
+                                            </tr>
+                                            <!--Phone-->
+                                            <tr><!--Icon time-->
+                                                <td rowspan="2" class="icon"><i class="icon-metall icon-clock"></i></td>
+                                                <!--Sclad-->
+                                                <td>Склад: пн-пт 8.00 – 17.00</td>
+                                            </tr>
+                                            <tr>
+                                                <!--Office-->
+                                                <td>Офис:  пн-пт 8.00 – 18.00</td>
+                                            </tr>
+                                        </table>
+                                        <!--End Work hours-->
+                                    </article>
+                                </div>
+                                <!--End Contacts-->
+                            </div>
+                        </div>
+                        <!--End contacts-->
+                    </div>
+                </header>
+                <!--End header-->
+            </div>
+            <!--End Header Modal-->
+            <!--Button close-->
+            <div class="button-wrap">
+                <!--Close button-->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-metall icon-cancel"></i></button>
+                <!--End close button-->
+            </div>
+            <!--End Button close-->
+            <!--Modal Body-->
+            <div class="modal-body container">
+                <!--Form for feedback-->
+                <form action="#" class="feedback form">
+                    <!--Form title-->
+                    <h3 class="modal-title" >Наши менеджеры свяжутся с вами в ближайшее время</h3>
+                    <!--Input Email-->
+                    <div class="form__wrap">
+                        <input type="text" class="form__input" placeholder="Ваше имя">
+                    </div>
+                    <!--Input Phone-->
+                    <div class="form__wrap">
+                        <input type="tel" class="form__input" placeholder="Номер телефона">
+                    </div>
+                    <!--Checkbox Confirm-->
+                    <div class="form__wrap">
+                        <label>
+                            <input class="checkbox" type="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Согласен с политикой обработки персональных данных</span>
+                        </label>
+                    </div>
+                    <!--End Checkbox Confirm-->
+                    <!--Button Send-->
+                    <div class="form__wrap">
+                       <button class="link link__orange">отправить</button>
+                    </div>
+                    <!--End Button Send-->
+                </form>
+                <!--End form for feedback-->
+            </div>
+            <!--End Modal Body-->
+            <!--Modal footer-->
+            <div class="modal-footer row">
+                <!--Footer-->
+                <footer>
+                    <!--Bootstrap container-->
+                    <div class="container-fluid">
+                        <!--Links-->
+                        <ul>
+                            <li>ООО «Феррум» 2018г.</li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                        <!--End Links-->
+                    </div>
+                    <!--End Bootstrap container-->
+                </footer>
+                <!--End Footer-->
+            </div>
+            <!--End Modal footer-->
+        </div>
+        <!--End Bootstrap container for full width-->
+    </div>
+    <!--End Body modal-->
+</div>
+<!--End Feedback-->
+<!--jQuery 3.2.2-->
+<script defer src="js/jquery.min.js"></script>
+<!--Bootstrap 3.3.7(Collapse,Modal,Slider)-->
+<script defer src="js/bootstrap.js"></script>
+<script defer src="js/swiper.min.js"></script>
+<!--Reinit slider for modal windows-->
+<script defer src="js/fotorama.js"></script>
+<!--Scroll animation-->
+<script defer src="js/wow.min.js"></script>
+<!--Custom scripts-->
+<script defer src="js/function.js"></script>
+</body>
+</html>
